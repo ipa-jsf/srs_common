@@ -21,7 +21,7 @@
 #include <srs_object_database_msgs/surf.h>
 #include <srs_object_database_msgs/pcl.h>
 #include "srs_object_database_msgs/point_types.h"
-#include "srs_object_database_msgs/impl/point_types.cpp"
+#include "src/point_types.cpp"
 #include <arm_navigation_msgs/Shape.h>
 
 struct input {

@@ -1,0 +1,16 @@
+<package>
+	<name>srs_common</name>
+	<version>0.1.0</version>
+	<description>This meta-package includes messages for the srs project</description>
+	<license>LGPL</license>
+	<url type="website">http://ros.org/wiki/cob_object_perception</url>
+	<!-- <url type="bugtracker"></url> -->
+	<maintainer email="jsf@ipa.fhg.de">Jan Fischer</maintainer>
+	<buildtool_depend>catkin</buildtool_depend>
+
+	<run_depend>srs_object_database_msgs</run_depend>
+
+	<export>
+		<metapackage />
+	</export>
+</package>

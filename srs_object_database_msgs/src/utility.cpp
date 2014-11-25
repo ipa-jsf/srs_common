@@ -23,7 +23,7 @@
 #include <pcl/pcl_base.h>
 #include <pcl/io/io.h>
 #include "srs_object_database_msgs/point_types.h"
-#include "srs_object_database_msgs/impl/point_types.cpp"
+#include "srs_object_database_msgs/point_types.h"
 #include "srs_object_database_msgs/surf.h"
 #include <geometry_msgs/Pose.h>
 

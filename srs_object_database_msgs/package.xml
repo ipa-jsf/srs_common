@@ -1,0 +1,30 @@
+<package>
+  <name>srs_object_database_msgs</name>
+  <version>0.1.0</version>
+  <description>
+
+     Object database messages
+
+  </description>
+  <author>Jan Fischer</author>
+  <maintainer email="jsf@ipa.fhg.de">Jan Fischer</maintainer>
+  <license>LGPL</license>
+  <url>http://www.care-o-bot.org</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <!--build_depend>arm_navigation_msgs</build_depend-->  
+
+  <run_depend>visualization_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <!--run_depend>arm_navigation_msgs</run_depend-->  
+
+  
+  <export>
+	  <!--cpp cflags="-I${prefix}/include" lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -l"/-->
+  </export>
+
+</package>
+
